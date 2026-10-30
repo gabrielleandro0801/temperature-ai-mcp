@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "temperature-open-meteo": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/mcps/temperature/dist/index.js"]
+    }
+  }
+}

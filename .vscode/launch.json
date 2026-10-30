@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Depurar servidor MCP",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/mcps/temperature/dist/index.js",
+      "cwd": "${workspaceFolder}/mcps/temperature",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}
